@@ -9,11 +9,11 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:textStyle="bold"
-        android:textSize="20px" />
+        android:textSize="60px" />
 
     <TextView android:id="@+id/LblSubTitulo"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:textStyle="normal"
-        android:textSize="12px" />
+        android:textSize="60px" />
 </LinearLayout>

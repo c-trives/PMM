@@ -16,6 +16,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+    Spinner spinner1;
     private Titular[] datos =
             new Titular[]{
                     new Titular("Título 1", "Subtítulo largo 1"),
@@ -29,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final Spinner spinner1 = (Spinner) findViewById(R.id.spinner1);
+        spinner1 = (Spinner) findViewById(R.id.spinner1);
 
 
 
@@ -38,13 +39,13 @@ public class MainActivity extends AppCompatActivity {
                 new AdaptadorTitulares(this);
 
 
-
+        //adaptador.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner1.setAdapter(adaptador);
 
         spinner1.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                showToast("prueba");
+                showToast(datos[position].getTitulo());
             }
 
             @Override
@@ -76,6 +77,12 @@ public class MainActivity extends AppCompatActivity {
             return(item);
 
         }
+
+        @Override
+        public View getDropDownView(int position, View cnvtView, ViewGroup prnt) {
+            return getView(position, cnvtView, prnt);
+        }
+
     }
 
 
