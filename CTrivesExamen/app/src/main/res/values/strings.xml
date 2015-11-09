@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CTrivesExamen</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="introdPizz">¡¡ PIZZERIA ONLINE !!</string>
+    <string name="local">En local</string>
+    <string name="domicilio">Envío Domicilio</string>
+    <string name="grande">+ Grande</string>
+    <string name="ingrediente">+ Ingred.</string>
+    <string name="extraQueso">+ Extra Queso</string>
+    <string name="numUnid">Numero de Unidades:</string>
+    <string name="descripImageTitular">CartelPizzera</string>
+    <string name="buttonFichaPizzeria">TOTAL PEDIDO</string>
+</resources>
