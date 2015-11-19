@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">pruebaRadioBox</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="pauseButton">Pausa</string>
+    <string name="playButton">Play</string>
+    <string name="stopButton">Stop</string>
+</resources>

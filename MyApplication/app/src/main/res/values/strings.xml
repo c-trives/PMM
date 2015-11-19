@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="hello_world">o.O!</string>
+    <string name="primerSaludo">este es mi primer saludo</string>
+    <string name="escribe">escribe aqui tu nombre</string>
+    <string name="pulsar">pulsar</string>
+    <string name="action_settings">Settings</string>
+    <string name="btnVolver">Click para volver</string>
+    <string name="noNameMsg">Prueba</string>
+    <string name="pararMusica">Parar musica</string>
+</resources>

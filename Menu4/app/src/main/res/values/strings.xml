@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Menu4</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="textBtnLineal">Layout Lineal</string>
+    <string name="textBtnTabla">Layout Tabla</string>
+    <string name="textBtnRelativo">Layout Relativo</string>
+    <string name="textBtnGrid">Layout Grid</string>
+    <string name="textBtnPrueba">Boton de prueba</string>
+    <string name="checkBoxPrueba">checkbox de prueba</string>
+    <string name="labelPrueba">Etiqueta de prueba</string>
+
+
+</resources>

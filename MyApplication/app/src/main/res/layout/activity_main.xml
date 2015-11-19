@@ -1,0 +1,43 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/degradado1">
+
+
+    <TextView
+        android:text="@string/primerSaludo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/miTxt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/escribe" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/miBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pulsar" />
+
+        <Button
+            android:id="@+id/pararMusica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pararMusica"
+            android:layout_marginLeft="140dp" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/returnText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

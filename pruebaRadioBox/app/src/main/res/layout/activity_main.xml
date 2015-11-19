@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center">
+
+    <TableRow>
+        <RadioGroup
+            android:id="@+id/gruporb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <RadioButton
+                android:id="@+id/radio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Evanescence Eveybody's Fool" />
+            <RadioButton
+                android:id="@+id/radio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Far from any road" />
+        </RadioGroup>
+    </TableRow>
+        <TableRow
+
+            android:layout_width="wrap_content"
+            android:layout_gravity="center" >
+            <Button
+                android:text="@string/playButton"
+                android:id="@+id/playButton"
+             />
+
+            <Button
+                android:text="@string/pauseButton"
+                android:id="@+id/pauseButton"
+                />
+            <Button
+                android:text="@string/stopButton"
+                android:id="@+id/stopButton"
+                />
+        </TableRow>
+
+    </TableLayout>
+    <TextView
+        android:id="@+id/LblSeleccion"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Reproduciendo: (NINGUN SONIDO)" />
+
+
+</LinearLayout>

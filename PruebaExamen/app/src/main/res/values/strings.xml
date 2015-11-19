@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PruebaExamen</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="transportes">Transportes Android</string>
+    <string name="action_settings">Settings</string>
+    <string name="tarNormal">Tarifa Normal</string>
+    <string name="tarUrgente">Tarifa Urgente</string>
+    <string name="cajaRegalo">Caja de Regalo</string>
+    <string name="tarjetaRegalo">Con Tarjeta de Regalo</string>
+    <string name="buttonFin">Hacer Calculos</string>
+    <string name="pesoPaquete">Introduzca el peso del paquete:</string>
+</resources>
