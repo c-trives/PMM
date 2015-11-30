@@ -39,10 +39,12 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        this.setTitle("Pizzeria");
 
-precioPizza = new PrecioPizza((TextView) findViewById(R.id.precioFinal));
+        precioPizza = new PrecioPizza((TextView) findViewById(R.id.precioFinal));
         final Spinner spinnerPizzas = (Spinner) findViewById(R.id.spinnerPizza);
 
         PizzaAdapter pizzaAdapter = new PizzaAdapter(this);
