@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FigurasAleatorias</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="shape_drawable_button_label">random</string>
+    <string name="random_shape_button_label">drawable</string>
+    <string name="title_activity_draw_shapes1">DrawShapes1</string>
+    <string name="redraw_button_label">redibujar</string>
+    <string name="title_activity_draw_shapes2">DrawShapes2</string>
+    <string name="heading_activity_draw_shapes2">Heading</string>
+</resources>
