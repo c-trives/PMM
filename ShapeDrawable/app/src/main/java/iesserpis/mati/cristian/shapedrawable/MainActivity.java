@@ -1,10 +1,10 @@
-package iesserpis.mati.cristian.bitmapdrawable;
+package iesserpis.mati.cristian.shapedrawable;
 
 import android.content.Context;
-import android.content.res.Resources;
 import android.graphics.Canvas;
-import android.graphics.Rect;
-import android.graphics.drawable.BitmapDrawable;
+import android.graphics.Color;
+import android.graphics.drawable.ShapeDrawable;
+import android.graphics.drawable.shapes.ArcShape;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(new ImageDraw(this));
+        setContentView(new DibujarFormas(this));
     }
 
     @Override
@@ -41,21 +41,24 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public class ImageDraw extends View {
+    public class DibujarFormas extends View {
 
-        private BitmapDrawable miImagen;
+        private ShapeDrawable shapeDrawable;
 
 
-        public ImageDraw(Context context) {
+        public DibujarFormas(Context context) {
             super(context);
-            Resources res = context.getResources();
-            miImagen = (BitmapDrawable) res.getDrawable(R.drawable.firefoxlogo);
-            miImagen.setBounds(new Rect(30,30,200,200));
+            int x=10,y=10;
+            int ancho=500,alto=200;
+
+            shapeDrawable = new ShapeDrawable(new ArcShape(-60,120));
+            shapeDrawable.getPaint().setColor(Color.CYAN);
+            shapeDrawable.setBounds(x, y, x + ancho, y + alto);
         }
 
         @Override
         protected void onDraw(Canvas canvas) {
-            miImagen.draw(canvas);
+            shapeDrawable.draw(canvas);
         }
     }
 }
