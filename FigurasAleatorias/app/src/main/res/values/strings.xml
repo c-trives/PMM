@@ -9,4 +9,6 @@
     <string name="redraw_button_label">redibujar</string>
     <string name="title_activity_draw_shapes2">DrawShapes2</string>
     <string name="heading_activity_draw_shapes2">Heading</string>
+    <string name="shape_choose_drawable_button_label">Choose Draw Shape</string>
+    <string name="title_activity_draw_shapes3">DrawShapes3</string>
 </resources>

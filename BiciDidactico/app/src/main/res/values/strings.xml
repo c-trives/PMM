@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Solobici!</string>
+    <string name="app_name">Solobici Didáctico</string>
+    <string name="tituloAplicacion">Solobici Didáctico</string>
+    <string name="action_settings">Configuración</string>
+    <string name="Jugar">Jugar</string>
+    <string name="Configurar">Configurar</string>
+    <string name="Acercade">Acerca de</string>
+    <string name="Salir">Salir</string>
+	<string name="TextoAcercaDe">Esta aplicación ha sido desarrollada para el curso del Cefire 
+	    de Cheste sobre programación de dispositivos móviles mediante Android.</string>
+</resources>
+

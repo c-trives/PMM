@@ -24,6 +24,10 @@
             android:name=".DrawShapes2"
             android:label="@string/title_activity_draw_shapes2" >
         </activity>
+        <activity
+            android:name=".DrawShapes3"
+            android:label="@string/title_activity_draw_shapes3" >
+        </activity>
     </application>
 
 </manifest>

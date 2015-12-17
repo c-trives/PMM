@@ -10,11 +10,11 @@ public class RandomUtils {
     private static Random r = new Random();
 
     /** Devuelve un entero aleatorio en el intervalo [0,range-1]. */
-     public static int randomInt(int range) {
-     return(r.nextInt(range));
-     }
+    public static int randomInt(int range) {
+        return(r.nextInt(range));
+    }
 
-     /** Devuelve un indice aleatorio en el intervalo [0 array.length-1] */
+    /** Devuelve un indice aleatorio en el intervalo [0 array.length-1] */
     public static int randomIndex(Object[] array) {
         return(randomInt(array.length));
     }

@@ -7,6 +7,7 @@ import android.graphics.drawable.ShapeDrawable;
 import android.graphics.drawable.shapes.ArcShape;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.AttributeSet;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -16,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(new DibujarFormas(this));
+        setContentView(R.layout.activity_main);
     }
 
     @Override
@@ -41,13 +42,13 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public class DibujarFormas extends View {
+
+    public static class DibujarFormas extends View {
 
         private ShapeDrawable shapeDrawable;
 
-
-        public DibujarFormas(Context context) {
-            super(context);
+        public DibujarFormas(Context context, AttributeSet attrs) {
+            super(context, attrs);
             int x=10,y=10;
             int ancho=500,alto=200;
 
@@ -55,6 +56,8 @@ public class MainActivity extends AppCompatActivity {
             shapeDrawable.getPaint().setColor(Color.CYAN);
             shapeDrawable.setBounds(x, y, x + ancho, y + alto);
         }
+
+
 
         @Override
         protected void onDraw(Canvas canvas) {

@@ -5,15 +5,21 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-<Button
-    android:onClick="launchDrawShapes1"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="@string/random_shape_button_label" />
+    <Button
+        android:onClick="launchDrawShapes1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/random_shape_button_label" />
 
-<Button
-android:onClick="launchDrawShapes2"
-android:layout_width="match_parent"
-android:layout_height="wrap_content"
-android:text="@string/shape_drawable_button_label" />
-    </LinearLayout>
+    <Button
+        android:onClick="launchDrawShapes2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/shape_drawable_button_label" />
+
+    <Button
+        android:onClick="launchDrawShapes3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/shape_choose_drawable_button_label" />
+</LinearLayout>
