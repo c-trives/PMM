@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dip">
+
+    <Button
+        android:id="@+id/BtnPreferencias"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/preferencias" />
+
+    <Button
+        android:id="@+id/BtnObtenerPreferencias"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/consultar" />
+
+</LinearLayout>

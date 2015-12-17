@@ -3,8 +3,10 @@ package iesserpis.mati.cristian.bicididactico;
 import java.util.Vector;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.graphics.Canvas;
 import android.graphics.drawable.Drawable;
+import android.preference.PreferenceManager;
 import android.util.AttributeSet;
 import android.view.View;
 
@@ -34,7 +36,14 @@ public class VistaJuego extends View {
         Drawable graficoBici, graficoCoche, graficoRueda;
         //Obtenemos la imagen/recurso del coche
         graficoCoche = contexto.getResources().getDrawable(R.drawable.coche);
+        SharedPreferences pref =
+                PreferenceManager.getDefaultSharedPreferences(contexto);
 
+        String opcion2 = pref.getString("opcion2","");
+
+        if(opcion2 != ""){
+            numCoches = Integer.parseInt(opcion2);
+        }
         //Creamos un vector para contener todos los coches que se ven en la pantalla
         //y lo rellenamos con graficos de coches
         // con valores aleatorios para su velocidad, direccion y rotacion.

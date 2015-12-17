@@ -11,6 +11,7 @@
         <activity android:name=".Juego"></activity>
         <activity android:name=".AcercaDe"></activity>
         <activity android:name=".SoloBici"></activity>
+        <activity android:name=".Preferences"></activity>
     </application>
 
 </manifest>

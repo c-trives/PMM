@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Categoria1">
+        <CheckBoxPreference
+            android:key="opcion1"
+            android:title="Musica de fondo"
+            android:summary="Desactiva la musica de fondo"
+            android:defaultValue="true"/>
+        <EditTextPreference
+            android:key="opcion2"
+            android:title="Numero de coches"
+            android:summary="Selecciona el numero de coches para el juego" />
+            android:dialogTitle="Introduce valor" />
+    </PreferenceCategory>
+</PreferenceScreen>

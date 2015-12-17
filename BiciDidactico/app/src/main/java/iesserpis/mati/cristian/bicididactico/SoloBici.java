@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -19,8 +21,8 @@ public class SoloBici extends Activity {
 
     private Button bAcercaDe;
     private Button bJuego;
-    //private Button bPreferencias;
-    //private Button bSalir;
+    private Button bPreferencias;
+    private Button bSalir;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -31,9 +33,22 @@ public class SoloBici extends Activity {
         bJuego = (Button) findViewById(R.id.Boton01);
         bJuego.setOnClickListener(new OnClickListener() {
             public void onClick(View view) {
+
+
+
                 lanzarJuego();
             }
         });
+
+        //Boton y escuchador para la pantalla "Preferencias"
+        bPreferencias = (Button) findViewById(R.id.Boton02);
+        bPreferencias.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                lanzarPreferencias();
+            }
+        });
+
         //Boton y escuchador para la pantalla "Acerca de"
         bAcercaDe = (Button) findViewById(R.id.Boton03);
         bAcercaDe.setOnClickListener(new OnClickListener() {
@@ -41,15 +56,20 @@ public class SoloBici extends Activity {
                 lanzarAcercaDe();
             }
         });
-    }
+
 
         //Boton y escuchador para la pantalla "Salir"
-       // bSalir = (Button) findViewById(R.id.Boton04);
-   /**     bSalir.setOnClickListener(new OnClickListener(){
+
+        bSalir = (Button) findViewById(R.id.Boton04);
+
+        bSalir.setOnClickListener(new OnClickListener(){
             public void onClick(View view) {
                 lanzarSalir();
             }
-        });*/
+        });
+    }
+
+
 
     //Metodo que activa la pantalla Juego
     public void lanzarJuego(){
@@ -63,11 +83,14 @@ public class SoloBici extends Activity {
         startActivity(i);
     }
 
-
+    public void lanzarPreferencias(){
+        Intent i = new Intent(this,Preferences.class);
+        startActivity(i);
+    }
     //Metodo que activa la pantalla AcercaDe
     public void lanzarSalir(){
         finish();
     }
 
 
-    }
+}
