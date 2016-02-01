@@ -1,0 +1,11 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_width="wrap_content">
+        <Button android:layout_height="wrap_content" android:text="Consultar" android:id="@+id/BtnConsultar" android:layout_width="wrap_content"/>
+        <Button android:layout_height="wrap_content" android:text="Insertar" android:id="@+id/BtnInsertar" android:layout_width="wrap_content"/>
+        <Button android:layout_height="wrap_content" android:text="Eliminar" android:id="@+id/BtnEliminar" android:layout_width="wrap_content"/>
+        <Button android:layout_height="wrap_content" android:text="Llamadas" android:id="@+id/BtnLlamadas" android:layout_width="wrap_content"/>
+    </LinearLayout><TextView android:id="@+id/TxtResultados" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text=""/>
+</LinearLayout>
