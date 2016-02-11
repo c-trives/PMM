@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AccessNetworkGoogle</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="click">click</string>
+    <string name="google">google</string>
+    <string name="url">url</string>
+</resources>

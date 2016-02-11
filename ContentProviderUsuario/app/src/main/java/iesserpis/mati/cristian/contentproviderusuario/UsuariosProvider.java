@@ -127,9 +127,9 @@ public class UsuariosProvider extends ContentProvider {
 
        switch(match) {
             case USUARIOS:
-                return "vnd.android.cursor.dir/vnd." + AUTHORITY + ACTIVIDAD;
+                return "vnd.android.cursor.dir/vnd." + AUTHORITY + "/"+ACTIVIDAD;
             case USUARIOS_ID:
-                return "vnd.android.cursor.item/vnd." + AUTHORITY + ACTIVIDAD;
+                return "vnd.android.cursor.item/vnd." + AUTHORITY + "/"+ACTIVIDAD;
             default:
                 return null;
         }
