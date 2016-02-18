@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Donuts Shop</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_pantalla_resultado">PantallaResultado</string>
+    <string name="tituloDonuts">Tienda de donuts</string>]
+    <string name="descripImageTitular">Imagen de una tienda de donuts</string>
+    <string name="local">local</string>
+    <string name="domicilio">domicilio</string>
+    <string name="oreo">Oreo</string>
+    <string name="sprinkles">Sprinkles</string>
+    <string name="buttonPedidoDonuts">Finalizar Compra</string>
+    <string name="title_activity_login">Donuts</string>
+    <string name="title_activity_registro_usuario">Registro de Usuario</string>
+    <string name="title_activity_donuts">Vista de Donuts </string>
+    <string name="title_activity_menu">Menu</string>
+</resources>

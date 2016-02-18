@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF1FBA</color>
+    <color name="colorPrimaryDark">#FF6200</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="donutBase">#ED9D58</color>
+    <color name="donutBaseSombra">#902B03</color>
+    <color name="glaseadoRosa">#FCB5DD</color>
+    <color name="glaseadoChocolate">#812111</color>
+    <color name="glaseadoChocolateBlanco">#EEF5F6</color>
+</resources>
